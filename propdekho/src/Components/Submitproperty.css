@@ -1,0 +1,84 @@
+/* CSS for Submitproperty component */
+
+.submithtmlForm {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+.label-input-container{
+display: inline-flex;
+    width: 100%;
+    text-align: left;
+    margin-top: 2em;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="checkbox"],
+select,
+textarea {
+    
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 5%;
+}
+
+textarea {
+    height: 200px;
+}
+
+#error {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+/* Style for JoditEditor */
+.jodit-wysiwyg {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for buttons in JoditEditor */
+.jodit_toolbar_btn {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.jodit_toolbar_btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#facilities-form{
+text-align: justify;
+    margin-right: 1%;
+    width: calc(50.33% - 1%);
+    box-sizing: border-box;
+    display: contents;
+}
+
+.modal {
+   
+    --bs-modal-width: 80%!important;
+    input {
+        font-size: 10px!important;
+    }
+}
